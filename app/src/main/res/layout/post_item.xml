@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/titleText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            style="@style/PostTitleStyle"/>
+
+        <TextView
+            android:id="@+id/mainText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            style="@style/PostBodyStyle" />
+    </LinearLayout></androidx.cardview.widget.CardView>
+
+
+
+
+
+
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<layout xmlns:android="http://schemas.android.com/apk/res/android">-->
+
+<!--    <data>-->
+
+<!--        <import type="ru.veronikarepina.domain.model.Post" />-->
+
+<!--        <variable-->
+<!--            name="post"-->
+<!--            type="Post" />-->
+
+<!--    </data>-->
+
+
+<!--    <androidx.cardview.widget.CardView xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    android:id="@+id/card_view"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:layout_margin="16dp"-->
+<!--    app:cardCornerRadius="10dp"-->
+<!--    app:cardElevation="4dp">-->
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:orientation="vertical">-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/titleText"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="TextView"-->
+<!--            style="@style/PostTitleStyle"/>-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/mainText"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="TextView"-->
+<!--            style="@style/PostBodyStyle" />-->
+<!--    </LinearLayout>-->
+<!--</androidx.cardview.widget.CardView>-->
+<!--</layout>-->
